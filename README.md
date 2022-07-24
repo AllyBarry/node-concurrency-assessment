@@ -1,14 +1,23 @@
 # Hooligan Backend Assessment
 
-## Requirements:
+## Assessment Requirements:
 - Node.js service
 - API that can be consumed from any client
 
-### Client Types and Corresponding APIs:
-- Web app
-- Backend service
-- Mobile app
-- Other
+## Development Setup
+
+### Run Locally
+#### Requirements:
+- Node Installation
+
+Navigate to the root of the repository and run: `npm run dev`
+
+### Run Docker Containers
+- Docker Installation
+
+Navigate to the root of the repository and run: `docker-compose up -d --build`
+
+## Design Comment
 
 ## API Design:
 - Client sends request to add stream
@@ -18,10 +27,7 @@
 
 - Connect stream: event-based
 
-- Disconnect strem: event-based.
+- Disconnect stream: event-based.
 
-### Amazon Services Integration
+### Scalability and Integration with Amazon Services
 - SQS and SNS
-
-### Development
-npm run devStart
