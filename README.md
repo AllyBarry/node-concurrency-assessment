@@ -1,4 +1,4 @@
-# Hooligan Backend Assessment
+# Node Server API Challenge
 
 ## Assessment Requirements:
 - Node.js service
